@@ -1,0 +1,30 @@
+/* Entire Font */
+* {
+    font-family:  'Courier', 'sans-serif';
+}
+
+/* To Hide Until Clicked */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+/* Removal Of Bullet Points */
+ul.nobullets {
+    list-style-type: none;
+}
+
+/* Button Styling */
+#start,
+#submit-score,
+#goback,
+#clearscores,
+.ansBtn,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    background-color: #2f006d;
+}
